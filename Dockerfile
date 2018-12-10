@@ -5,4 +5,4 @@ RUN yum install -y httpd php php-fpm php-server php-mysql unzip wget \
 &&unzip ComsenzDiscuz-DiscuzX-master.zip \
 &&cp -r /tmp/DiscuzX/upload/* /var/www/html/ \
 &&chmod -R 777 /var/www/html \
-&&rm -rf /tmp/ComsenzDiscuz-DiscuzX-master.zip DiscuzX
+&&rm -rf /tmp/ComsenzDiscuz-DiscuzX-master.zip
